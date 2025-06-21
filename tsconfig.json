@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "isolatedModules": true,
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./resources/js/*"],
+      "components/*": ["./resources/js/components/*"],
+      "layouts": ["./resources/js/layouts/index.ts"]
+    }
+  },
+  "include": [
+    "resources/js/**/*.tsx",
+    "resources/js/**/*.ts",
+    "postcss.config.js",
+    "vite.config.js",
+    "tailwind.config.js"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "react-go",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vite build --config ssr.config.js",
+    "build-watch": "vite build --watch && vite build --config ssr.config.js"
+  },
+  "devDependencies": {
+    "@inertiajs/react": "^1.1.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.12",
+    "axios": "^1.6.4",
+    "laravel-vite-plugin": "^1.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.2.1",
+    "vite": "^5.0"
+  },
+  "dependencies": {
+    "@inertiajs/react": "^1.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "packageManager": "pnpm@10.12.1"
+}
+

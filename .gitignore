@@ -1,0 +1,25 @@
+node_modules
+tmp
+
+.DS_Store
+*.log
+*.tmp
+dist
+coverage
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: Ignore build artifacts
+build
+
+# Optional: Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Optional: Ignore OS generated files
+Thumbs.db
+ehthumbs.db
