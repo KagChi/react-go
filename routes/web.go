@@ -5,7 +5,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/gofiber/adaptor/v2"
 	"github.com/gofiber/fiber/v2"
-	inertia "github.com/romsar/gonertia"
+	inertia "github.com/romsar/gonertia/v2"
 	"github.com/rs/zerolog/log"
 	"os"
 	"path"

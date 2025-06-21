@@ -1,7 +1,7 @@
 package web
 
 import (
-	inertia "github.com/romsar/gonertia"
+	inertia "github.com/romsar/gonertia/v2"
 	"github.com/rs/zerolog/log"
 	"net/http"
 )
