@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@inertiajs/react':
         specifier: ^2.0.0
-        version: 2.0.13(react@19.1.0)
+        version: 2.0.14(react@19.1.0)
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -291,11 +291,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@inertiajs/core@2.0.13':
-    resolution: {integrity: sha512-MZ1JkEoA1s7eheHiQFXVjIOw9xBx2zZFX/lCwAUSb5w6WOsz7gaLj/fTxoMZr9eyxzcfaLScsky+EcSpiRU78w==}
+  '@inertiajs/core@2.0.14':
+    resolution: {integrity: sha512-6LLr+8PFqjwRh9JZMuM+L3TksHagS34bg2e3/j9LBHGFv3DGw3JxZaHm+PWqqgKAfOrgs4HFtiU1bEo/anzzAA==}
 
-  '@inertiajs/react@2.0.13':
-    resolution: {integrity: sha512-vtodC9nb5k9CI6u6hhOvjbXs6C1Rh1nlw+TzfOk37xWG8WQ6X7gjzz/uUu6ieozZDkERB76Q8rGqhj8jJvtKzA==}
+  '@inertiajs/react@2.0.14':
+    resolution: {integrity: sha512-GAjb+jkJKEbuY5qMxC3RIu8/+/eaBszo20zHWd4ZdJ+bX09Pd+GUzRAPf0bSLO86ilccT/GsACX8eE9CccZboQ==}
     peerDependencies:
       react: ^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -633,8 +633,8 @@ packages:
     resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.39.4:
-    resolution: {integrity: sha512-hHqQ0yJERMNrJUyYHnf02qDuIxjRnnJlx1CFdR9Ia6tw6jPA7kXmb+tWzc7trJDHwMsc393hZ/m2XMxYXGAfqQ==}
+  es-toolkit@1.39.6:
+    resolution: {integrity: sha512-uiVjnLem6kkfXumlwUEWEKnwUN5QbSEB0DHy2rNJt0nkYcob5K0TXJ7oJRzhAcvx+SRmz4TahKyN5V9cly/IPA==}
 
   esbuild@0.25.5:
     resolution: {integrity: sha512-P8OtKZRv/5J5hhz0cUAdu/cLuPIKXpQl1R9pZtvmHWQvrAUVd0UNIPT4IB4W3rNOqVO0rlqHmCIbSwxh/c9yUQ==}
@@ -1190,18 +1190,18 @@ snapshots:
   '@esbuild/win32-x64@0.25.5':
     optional: true
 
-  '@inertiajs/core@2.0.13':
+  '@inertiajs/core@2.0.14':
     dependencies:
       axios: 1.10.0
-      es-toolkit: 1.39.4
+      es-toolkit: 1.39.6
       qs: 6.14.0
     transitivePeerDependencies:
       - debug
 
-  '@inertiajs/react@2.0.13(react@19.1.0)':
+  '@inertiajs/react@2.0.14(react@19.1.0)':
     dependencies:
-      '@inertiajs/core': 2.0.13
-      es-toolkit: 1.39.4
+      '@inertiajs/core': 2.0.14
+      es-toolkit: 1.39.6
       react: 19.1.0
     transitivePeerDependencies:
       - debug
@@ -1496,7 +1496,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
-  es-toolkit@1.39.4: {}
+  es-toolkit@1.39.6: {}
 
   esbuild@0.25.5:
     optionalDependencies:
