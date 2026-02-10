@@ -15,7 +15,7 @@
     "@tailwindcss/vite": "^4.1.10",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react": "^5.0.0",
     "autoprefixer": "^10.4.12",
     "axios": "^1.6.4",
     "laravel-vite-plugin": "^1.0",
