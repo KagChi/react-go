@@ -3,7 +3,7 @@ module react-go
 go 1.24.4
 
 require (
-	github.com/goccy/go-json v0.10.5
+	github.com/goccy/go-json v0.10.6
 	github.com/gofiber/adaptor/v2 v2.2.1
 	github.com/gofiber/fiber/v2 v2.52.8
 	github.com/romsar/gonertia/v2 v2.0.6
